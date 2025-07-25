@@ -16,6 +16,6 @@ math; +; 0; 1; 2; Set C=A+B
 print; $; 2; Print C
 #; Pause the script and wait for user input
 break;
-#; Repeat the script if wanted 
+#; Repeat the script 
 goto; 9
 end;

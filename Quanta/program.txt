@@ -1,10 +1,10 @@
 #; A script that prints some text
 var; 5
 print; HELLO WORLD 1234 #$%&; Hello this is a command comment
-set; 0; 156
-set; 1; HELLO world
-input; 2; Type a number:
-input; 3; Type a number:
+set; int;  0; 156
+set; str;  1; HELLO world
+input; int; 2; Type a number:
+input; int; 3; Type a number:
 print; $; 0
 print; $; 1
 math; +; 2; 3; 4

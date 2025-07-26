@@ -1,0 +1,24 @@
+#; A game that you guess the random number (Bigger or Smaller)
+#; Make variables A,B,C,D,E,F
+var; 5
+set; int; 0; 0
+set; int; 1; 10
+set; int; 4; 1
+random; 2; 1; 100
+input; int; 3; Type a number between 1 and 100:
+math; +; 0; 4; 0
+check; ==; 0; 1; 13
+check; ==; 2; 3; 15
+check; >; 2; 3; 19
+check; <; 2; 3; 21
+print; You lose / No chanses
+goto; 23
+print; You win / Found the number
+print; Times tried:
+print; $; 0
+goto; 23
+print; Try a bigger number
+goto; 7
+print; Try a smaller number
+goto; 7
+end;

@@ -28,7 +28,8 @@ while run:
         cursor = cursor + 1
 
     elif command[0] == "random":
-        variables[int(command[3])] = random.randint(int(command[1]), int(command[2]))
+        variables[int(command[1])] = random.randint(int(command[2]), int(command[3]))
+        cursor = cursor + 1
 
     elif command[0] == "wait":
         if command[1] == "$":
@@ -109,7 +110,7 @@ while run:
                 cursor = cursor + 1
 
         elif command[1] == "!=":
-            if variables[int(command[2])] == variables[int(command[3])]:
+            if variables[int(command[2])] != variables[int(command[3])]:
                 if int(command[4]) == cursor:
                     print("Error: Infinite goto loop on itself")
                     run = False
@@ -120,7 +121,7 @@ while run:
                 cursor = cursor + 1
 
         elif command[1] == "<":
-            if variables[int(command[2])] == variables[int(command[3])]:
+            if variables[int(command[2])] < variables[int(command[3])]:
                 if int(command[4]) == cursor:
                     print("Error: Infinite goto loop on itself")
                     run = False
@@ -131,7 +132,7 @@ while run:
                 cursor = cursor + 1
 
         elif command[1] == ">":
-            if variables[int(command[2])] == variables[int(command[3])]:
+            if variables[int(command[2])] > variables[int(command[3])]:
                 if int(command[4]) == cursor:
                     print("Error: Infinite goto loop on itself")
                     run = False
@@ -143,7 +144,7 @@ while run:
 
         elif command[1] == "<=":
             if variables[int(command[2])] == variables[int(command[3])]:
-                if int(command[4]) == cursor:
+                if int(command[4]) <= cursor:
                     print("Error: Infinite goto loop on itself")
                     run = False
         
@@ -153,7 +154,7 @@ while run:
                 cursor = cursor + 1
 
         elif command[1] == ">=":
-            if variables[int(command[2])] == variables[int(command[3])]:
+            if variables[int(command[2])] >= variables[int(command[3])]:
                 if int(command[4]) == cursor:
                     print("Error: Infinite goto loop on itself")
                     run = False

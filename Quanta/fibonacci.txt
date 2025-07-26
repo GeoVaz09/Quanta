@@ -1,17 +1,17 @@
 #; A script that prints the Fibonacci sequence
 #; Make variables A,B,C
 var; 3
-set; 0; 0; Set A=0
-set; 1; 1; Set B=1
-set; 2; 1; Set C=1
+set; int; 0; 0; Set A=0
+set; int; 1; 1; Set B=1
+set; int; 2; 1; Set C=1
 print; $; 0; Print A
 print; $; 1; Print B
 print; $; 2; Print C
-set; 0; 0; Set A=0
+set; int; 0; 0; Set A=0
 math; +; 0; 1; 0; Set A=B
-set; 1; 0; Set B=0
+set; int; 1; 0; Set B=0
 math; +; 1; 2; 1; Set B=C
-set; 2; 0; Set C=0
+set; int; 2; 0; Set C=0
 math; +; 0; 1; 2; Set C=A+B
 print; $; 2; Print C
 #; Pause the script and wait for user input

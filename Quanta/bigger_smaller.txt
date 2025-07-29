@@ -1,5 +1,5 @@
 #; A game that you guess the random number (Bigger or Smaller)
-#; Make variables A,B,C,D,E,F
+#; Make variables A,B,C,D,E
 var; 5
 set; int; 0; 0
 set; int; 1; 10

@@ -27,6 +27,9 @@ while run:
 #        print("Comment:", command[1])
         cursor = cursor + 1
 
+    elif command[0] == "":
+        cursor = cursor + 1
+
     elif command[0] == "random":
         variables[int(command[1])] = random.randint(int(command[2]), int(command[3]))
         cursor = cursor + 1
@@ -65,6 +68,10 @@ while run:
             variables[int(command[2])] = float(command[3])
         elif command[1] == "bool":
             variables[int(command[2])] = bool(command[3])
+        cursor = cursor + 1
+    
+    elif command[0] == "change":
+        variables[int(command[2])] = variables[int(command[2])] + int(command[3])
         cursor = cursor + 1
 
     elif command[0] == "input":

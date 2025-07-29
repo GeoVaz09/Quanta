@@ -1,0 +1,62 @@
+#; Rock-Paper-Scissors Game
+#; Make variables
+var; 5
+random; 3; 1; 3
+print; Rock(1) - Paper(2) - Scissors(3)
+input; int; 4; Choose one of the above (1-3):
+#; Validate player choice
+set; int; 0; 0
+check; <; 4; 0; 5
+set; int; 0; 3
+check; >; 4; 0; 5
+#; Display player choice
+print; Player choice:
+set; int; 0; 1
+check; ==; 4; 0; 21
+set; int; 0; 2
+check; ==; 4; 0; 23
+set; int; 0; 3
+check; ==; 4; 0; 25
+print; Number out of range
+goto; 3
+print; Rock
+goto; 27
+print; Paper
+goto; 27
+print; Scissors
+#; Display computer choice
+print; Computer choice:
+set; int; 0; 1
+check; ==; 3; 0; 34
+set; int; 0; 2
+check; ==; 3; 0; 36
+set; int; 0; 3
+check; ==; 3; 0; 38
+print; Rock
+goto; 40
+print; Paper
+goto; 40
+print; Scissors
+#; Decide winner
+check; !=; 3; 4; 45
+print; Tie
+goto; 60
+#; Win conditions
+#; Player: Rock(1), Paper(2), Scissors(3)
+set; int; 0; 1
+check; ==; 4; 0; 55
+set; int; 0; 2
+check; ==; 4; 0; 51
+set; int; 0; 3
+check; ==; 4; 0; 53
+set; int; 0; 1
+check; ==; 3; 0; 59
+set; int; 0; 2
+check; ==; 3; 0; 59
+set; int; 0; 3
+check; ==; 3; 0; 59
+print; You lose!
+goto; 60
+print; You win!
+break;
+goto; 3

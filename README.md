@@ -8,7 +8,7 @@
 ## 🧩 Overview  
 **Quanta** is a custom programming language designed and implemented by GeoVaz09. It features its own syntax and interpreter made with Python. 
 <p align="center">
-  <img src="assets/quanta-logo.png" alt="Quanta Logo" width="200"/>
+  <img src="Quanta/assets/quanta-logo.png" alt="Quanta Logo" width="200"/>
 </p>
 
 ---

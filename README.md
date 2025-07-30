@@ -15,9 +15,9 @@
 
 ## ⚙️ Features  
 - **Custom syntax**: BAD and NOT easy to learn. (I would consider it an esolang)
-- **Interpreter**: interactive execution with almost no debugging help  
-- **Built-in standard library**: basic math, data structures.  
-- **Tooling**: CLI for running code, error reporting (for at leist 2 command and that's it ;)  ).
+- **Interpreter**: interactive execution with almost no debugging help
+- **Built-in standard library**: basic math, data structures.  (I think)
+- **Tooling**: CLI for running code, error reporting for at leist 2 command and that's it ;) .
 
 ---
 
@@ -29,15 +29,16 @@ print; Hello World
 
 Try it out online using this test link:
 🔗 https://www.online-python.com/mNRY8DuT0H
+
 Run the main file and type the name of the program you want to run.
 
 (Note: this link uses an online‑Python environment to simulate or test Quanta code.)
-💬 Documentation & Further Help (Or ask Chat GPT and Pray it works)
+💬 Documentation & Further Help (Or ask Chat GPT and pray it works)
 
 📣 Acknowledgments
 
     Developed by GeoVaz09
 
-    README scaffold and logo generated with AI assistance
+    README and logo generated with AI assistance
 
 Thank you for checking out Quanta—happy coding!

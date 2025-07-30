@@ -33,28 +33,10 @@ Try it out online using this test link:
 (Note: this link uses an online‑Python environment to simulate or test Quanta code.)
 💬 Documentation & Further Help
 
-(To be expanded)
-
-    Language reference (data types, control flow, functions)
-
-    Standard library API
-
-    Interpreter internals
-
-    Error handling, tooling, caveats
-
 📣 Acknowledgments
 
     Developed by GeoVaz09
 
-    README scaffold generated with AI assistance
-
-📌 Roadmap (Upcoming Ideas)
-
-    Full standard library expansion
-
-    Module/package system
-
-    Optimizations
+    README scaffold and logo generated with AI assistance
 
 Thank you for checking out Quanta—happy coding!

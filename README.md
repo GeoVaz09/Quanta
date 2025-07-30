@@ -36,33 +36,15 @@ Try it out online using this test link:
 
     Standard library API
 
-    Compiler/interpreter internals
+    Interpreter internals
 
     Error handling, tooling, caveats
 
-🤝 Contributing
-
-Contributions are welcome! Please follow this workflow:
-
-    Fork the repository
-
-    Create a feature branch: feature/xyz
-
-    Commit your changes & add tests/examples
-
-    Push branch and make a pull request
-
-    Include relevant documentation updates
-
-Please ensure your code passes existing tests and adheres to the code style.
-📄 License
-
-Specify your license here (e.g., MIT, Apache‑2.0)
 📣 Acknowledgments
 
     Developed by GeoVaz09
 
-    README scaffold generated with AI assistance (ChatGPT)
+    README scaffold generated with AI assistance
 
 📌 Roadmap (Upcoming Ideas)
 
@@ -70,9 +52,6 @@ Specify your license here (e.g., MIT, Apache‑2.0)
 
     Module/package system
 
-    Optimizations or VM enhancements
-
-    IDE support / syntax highlighting
+    Optimizations
 
 Thank you for checking out Quanta—happy coding!
-Feel free to tweak this template with more specific details, examples, and installation instructions as your project evolves.

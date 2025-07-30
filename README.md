@@ -29,9 +29,10 @@ print; Hello World
 
 Try it out online using this test link:
 🔗 https://www.online-python.com/mNRY8DuT0H
+Run the main file and type the name of the program you want to run.
 
 (Note: this link uses an online‑Python environment to simulate or test Quanta code.)
-💬 Documentation & Further Help
+💬 Documentation & Further Help (Or ask Chat GPT and Pray it works)
 
 📣 Acknowledgments
 

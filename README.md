@@ -32,7 +32,7 @@ Both games showcase Quanta's ability to handle user input, logic, and control fl
 
 ## Quanta Playground
 - A playground site for testing Quanta
-- Test the <a href="https://geovaz09.github.io/Quanta_Playground/">Playground</a>
+- Test the <a href="https://geovaz09.github.io/Quanta/">Playground</a>
 
 (Note: this link uses an online‑Python environment to simulate or test Quanta code.)<br>
 💬 Documentation & Further Help (Or ask Chat GPT and pray it works)

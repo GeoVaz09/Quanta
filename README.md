@@ -37,7 +37,9 @@ Both games showcase Quanta's ability to handle user input, logic, and control fl
 (Note: this link uses an online‑Python environment to simulate or test Quanta code.)<br>
 💬 Documentation & Further Help (Or ask Chat GPT and pray it works)
 
-📣 Acknowledgments
+---
+
+## 📣 Acknowledgments
 
     Developed by GeoVaz09 ( @George Vazakas on Slack )
 

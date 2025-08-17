@@ -30,18 +30,11 @@ Both games showcase Quanta's ability to handle user input, logic, and control fl
 - **Built-in standard library**: basic math, data structures.  (I think, I am not quite sure if it is even turing-complete)
 ---
 
-🧪 Example
+## Quanta Playground
+- A playground site for testing Quanta
+- Test the <a href="https://geovaz09.github.io/Quanta_Playground/">Playground</a>
 
-A minimal hello.txt example:
-
-print; Hello World
-
-Try it out online using this test link:
-🔗 https://www.online-python.com/mNRY8DuT0H
-
-Run the main file and type the name of the program you want to run.
-
-(Note: this link uses an online‑Python environment to simulate or test Quanta code.)
+(Note: this link uses an online‑Python environment to simulate or test Quanta code.)<br>
 💬 Documentation & Further Help (Or ask Chat GPT and pray it works)
 
 📣 Acknowledgments

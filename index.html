@@ -2,17 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Quanta Playground</title>
     <style>
-      .output { width:100%; height:220px; border: 1px solid #000; font-family:ui-monospace,monospace }
-      button { margin: 0.3rem; padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid #ccc; }
+      body{background-color: #242830; text-align: center;}
+      button { margin: 0.3rem; padding: 0.5rem 1rem; border-radius: 8px; border: 2.5px solid #ecc92ce8; background-color: #242830; font-family: "ui-monospace" ,monospace; color: #ecc92ce8; }
+      h1{font-family: "ui-monospace" ,monospace; color: #ecc92ce8;}
+      p{font-family: "ui-monospace" ,monospace; color: whitesmoke;}
+      form{text-align: left; font-family: "ui-monospace" ,monospace; color: whitesmoke;}
+      strong{font-family: "ui-monospace" ,monospace; color: #ecc92ce8;}
+      welcome{text-align: left; font-family: "ui-monospace" ,monospace; color: whitesmoke;}
+      .center {margin: auto; width: 500px;}
     </style>
   </head>
   <body>
     <h1>Quanta Playground</h1>
-
-    <p>Choose an example:</p>
+    <br>
+    <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/d0d57f751e7bc1994c4973fc2f2b2f597471ae44_1000044577.png" alt="Quanta Logo" width="500"/>
+    <br>
+    <p>Welcome to the official playground site.</p>
+    <p>This is a site for testing <strong>Quanta</strong></p>
+    <br>
+    <div class="center">
+    <welcome>
+    <p><strong ">Steps:</strong></p>
+    <p>1. Select the script you want to test</p>
+    <p>2. Press <strong>"View Source"</strong> to see the exaple's source code <strong>(Optional)</strong></p>
+    <p>3. Press <strong>"Run ▶"</strong> to copy exaple file's name and go to the Playground</p>
+    <p>4. After it loads, on the "File to load:" input --paste the exaple file's name</p>
+    <p>5. Use the script as instructed by the example <strong>(Don't do anything crazy)</strong></p>
+    </welcome>
+    </div>
+    <br>
+    <div class="center">
     <form id="exampleForm">
+      <p><strong>Choose an example:</strong></p>
       <input type="radio" id="ex1" name="example" value="1">
       <label for="ex1">Program</label><br>
 
@@ -25,30 +50,26 @@
       <input type="radio" id="ex4" name="example" value="4">
       <label for="ex4">Rock Paper Scissors</label><br><br><br>
     </form>
-
+    </div>
     <button onclick="run()" id="runBtn">Run ▶</button>
     <button onclick="viewSource()" id="sourceBtn">View Source</button>
-    <pre id="out">Output will appear here…</pre>
-    <div class= "output" id="src"></div><br>
-    <input type="text" id="input"></input>
-    <button id="enter">Enter</button>
     <script>
       // Example definitions
       const examples = {
         1: {
-          code: "Program",
+          code: "program.txt",
           url: "https://github.com/GeoVaz09/Quanta/blob/main/Quanta/program.txt"
         },
         2: {
-          code: "Fibonacci",
+          code: "fibonacci.txt",
           url: "https://github.com/GeoVaz09/Quanta/blob/main/Quanta/fibonacci.txt"
         },
         3: {
-          code: "Bigger or Smaller",
+          code: "bigger_smaller.txt",
           url: "https://github.com/GeoVaz09/Quanta/blob/main/Quanta/bigger_smaller.txt"
         },
         4: {
-          code: "Rock Paper Scissors",
+          code: "rock_paper_scissors.txt",
           url: "https://github.com/GeoVaz09/Quanta/blob/main/Quanta/rock_paper_scissors.txt"
         }
       };
@@ -68,11 +89,14 @@
           return;
         }
 
-        const ex = examples[selected];
-
-        // TODO: Hook up your interpreter call here.
-        // For now just echo it into the output box.
-        document.getElementById("out").textContent = "Running Quanta...\n" + ex.code;
+        if (confirm("Do you want to copy the script name and be redirected to the playground?")) {
+          const ex = examples[selected];
+          const cd = ex.code
+          navigator.clipboard.writeText(cd);
+          window.open("https://www.pythonanywhere.com/gists/1832dee52cd5960efd6e2d40150a85a0/quanta.py/python")
+        } else {
+          window.alert("Please press Run again and OK to test Quanta");
+        } 
       }
 
       function viewSource() {

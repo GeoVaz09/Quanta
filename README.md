@@ -19,7 +19,7 @@ Both games showcase Quanta's ability to handle user input, logic, and control fl
 
 
 <p align="center">
-  <img src="Quanta/assets/quanta-logo.png" alt="Quanta Logo" width="500"/>
+  <img src="Quanta/assets/quanta-logo.png" alt="Quanta Logo" width="400"/>
 </p>
 
 ---
@@ -34,7 +34,15 @@ Both games showcase Quanta's ability to handle user input, logic, and control fl
 - A playground site for testing Quanta
 - Test Quanta on the official <a href="https://geovaz09.github.io/Quanta/">Playground</a>
 
-(Note: this link uses an online‑Python environment to simulate or test Quanta code.)<br>
+Steps:
+1. Select the script you want to test
+2. Press "View Source" to see the exaple's source code (Optional)
+3. Press "Run ▶" to copy exaple file's name and go to the Playground
+4. After it loads, on the "File to load:" input --paste the exaple file's name
+5. Use the script
+<br>
+(Note: this link uses an online‑Python environment to simulate or test Quanta code.)
+<br>
 💬 Documentation & Further Help (Or ask Chat GPT and pray it works)
 
 ---

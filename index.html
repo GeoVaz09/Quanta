@@ -17,6 +17,7 @@
     </style>
   </head>
   <body>
+    <div class="center">
     <h1>Quanta Playground</h1>
     <br>
     <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/d0d57f751e7bc1994c4973fc2f2b2f597471ae44_1000044577.png" alt="Quanta Logo" width="500"/>
@@ -24,7 +25,6 @@
     <p>Welcome to the official playground site.</p>
     <p>This is a site for testing <strong>Quanta</strong></p>
     <br>
-    <div class="center">
     <welcome>
     <p><strong ">Steps:</strong></p>
     <p>1. Select the script you want to test</p>
@@ -33,9 +33,7 @@
     <p>4. After it loads, on the "File to load:" input --paste the exaple file's name</p>
     <p>5. Use the script as instructed by the example <strong>(Don't do anything crazy)</strong></p>
     </welcome>
-    </div>
     <br>
-    <div class="center">
     <form id="exampleForm">
       <p><strong>Choose an example:</strong></p>
       <input type="radio" id="ex1" name="example" value="1">
@@ -50,9 +48,9 @@
       <input type="radio" id="ex4" name="example" value="4">
       <label for="ex4">Rock Paper Scissors</label><br><br><br>
     </form>
-    </div>
     <button onclick="run()" id="runBtn">Run ▶</button>
     <button onclick="viewSource()" id="sourceBtn">View Source</button>
+    </div>
     <script>
       // Example definitions
       const examples = {

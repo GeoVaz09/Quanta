@@ -5,7 +5,16 @@ cursor = 0
 variables = []
 run = True
 
-file = input("File to load: ")
+scripts = ["program.txt", "fibonacci.txt", "bigger_smaller.txt", "rock_paper_scissors.txt"]
+item = 0
+
+for script in scripts:
+    print(f"{item}) {script}")
+    item += 1
+
+num = int(input("File to load (type the number): "))
+
+file = scripts[num]
 
 with open(file) as f:
     program = [line.rstrip() for line in f]

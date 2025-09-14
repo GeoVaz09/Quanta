@@ -35,7 +35,7 @@ Both games showcase Quanta's ability to handle user input, logic, and control fl
 - Test Quanta on the official <a href="https://geovaz09.github.io/Quanta/">Playground</a>
 
  <p><strong>Steps:</strong></p>
-    <p>1. Select the script you want to test from the specific examples</p>
+    <p>1. Select the script you want to test from the specific examples <strong>(It is only necessary for Step 2.)</strong></p>
     <p>2. Press <strong>"View Source"</strong> to see the exaple's source code in Github <strong>(Optional)</strong></p>
     <p>3. Press <strong>"Run ▶"</strong> and enter the number of the example script you want to load <strong>(after pythonanywhere.com loads)</strong></p>
     <p>4. Use the script as instructed by the <a href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/0aa40fcb8e0a2bc4323b5d5e24189489ed846a29_tutorial.mp4">tutorial</a> <strong>(Just see the tutorial first)</strong></p>

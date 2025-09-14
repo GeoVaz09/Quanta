@@ -34,12 +34,14 @@ Both games showcase Quanta's ability to handle user input, logic, and control fl
 - A playground site for testing Quanta
 - Test Quanta on the official <a href="https://geovaz09.github.io/Quanta/">Playground</a>
 
-Steps:
-1. Select the script you want to test
-2. Press "View Source" to see the exaple's source code (Optional)
-3. Press "Run ▶" to copy exaple file's name and go to the Playground
-4. After it loads, on the "File to load:" input --paste the exaple file's name
-5. Use the script
+ <p><strong>Steps:</strong></p>
+    <p>1. Select the script you want to test from the specific examples</p>
+    <p>2. Press <strong>"View Source"</strong> to see the exaple's source code in Github <strong>(Optional)</strong></p>
+    <p>3. Press <strong>"Run ▶"</strong> to copy exaple file's name and go to the Playground <strong>(done by the script when "Yes" is clicked)</strong></p>
+    <p>4. If the automatic copy in the script doesn't work, just see the file names in Github <strong>(only the .txt files are examples)</strong> and copy the exaple file's name manualy <strong>(Optional)</strong></p>
+    <p>5. After the Playground loads <strong>(pythonanywhere.com)</strong>, on the "File to load:" input, paste the exaple file's name</p>
+    <p>6. Use the script as instructed by the example <strong>(Just see the tutorial first)</strong></p>
+    <p>7. For any questions or ideas, just send me on Slack <strong>@George Vazakas</strong></p>
 <br>
 (Note: this link uses an online‑Python environment to simulate or test Quanta code.)
 <br>
